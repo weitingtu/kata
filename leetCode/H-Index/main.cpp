@@ -11,8 +11,8 @@ public:
         int l = 0;
         int r = (int) citations.size() - 1;
         int mid;
-        int i = -1;
-        while(l < r)
+        int i = 0;
+        while(l <= r)
         {
             mid = l + ((r - l) >> 1);
             if(citations[mid] >= ((int) citations.size() - mid))
